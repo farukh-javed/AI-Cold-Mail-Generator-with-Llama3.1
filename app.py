@@ -87,8 +87,6 @@ if st.button("Generate Cold Email"):
             )
             prompt1 = prompt_email.format_messages(job_description=job, links_list=links_list)
             response = llm.invoke(prompt1)
-            print(links_list)
-            print(job)
             st.text_area("Generated Cold Email:", response.content, height=300)
         else:
             st.error("Failed to extract job information.")
