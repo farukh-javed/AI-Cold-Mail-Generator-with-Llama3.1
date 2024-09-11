@@ -1,4 +1,4 @@
-# ✉️ Cold Mail Generator
+# 📧 Cold Mail Generator
 
 **Cold Mail Generator** helps business development professionals create personalized cold emails by matching job postings with relevant portfolio data. It scrapes job descriptions, compares them with your skills, and generates emails with the appropriate links from your portfolio.
 
